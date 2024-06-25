@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    width: 150px;
+    height: 55px;
+    position: relative;
+}
+.home{
+    border: 1px solid white;
+    background-color: rgba(194, 50, 50, 0);
+    border-radius: 18px;
+    padding: 7px;
+    font-size: 15px;
+}
+.home:hover{
+    background-color: rgb(229, 226, 226);
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+}
+#internet{
+    width: 30px;
+    height: 30px;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+
+}
+.user-icon:hover{
+    box-shadow: 2px 1px 2px rgb(140, 140, 140);
+}
+.user-icon{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 18px;
+    position: relative;
+    /* bottom: 1em; */
+}
+#icons{
+    border: 1px solid rgb(166, 166, 166);
+    padding: 7px;
+    border-radius: 18px;
+    width: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+}
+.airbnb-sec-first-main{
+    display: flex  ;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* position: fixed; */
+}
+.airbnb-first-secondtxt{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+
+}
+#internet,.user-icon,.airbnb-first-text{
+    margin: 10px;
+}
+.airbnb-second-sec-button{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgb(161, 161, 161);
+    border-radius: 30px;
+    width: 31%;
+    position: relative;
+    left: 28em;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.airbnb-bnt{
+    width: 15em;
+    border-radius: 18px;
+    background-color: white;
+    border: 1px solid white;
+    font-size: 10px;
+    text-align: left;
+    padding: 10px;
+}
+.three{
+    position: relative;
+    width: 15em;
+    height: 5em;
+}
+#rose-icon{
+    position: relative;
+    bottom: 25px;
+    left: 10em;
+    border-radius: 18px;
+    padding: 2px;
+}
+.second-sec-bnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.airbnb-bnt:hover{
+    background-color: rgb(174, 172, 172);
+}
+.divider{
+    margin-top: 5em;
+    border-bottom: 1px solid grey;
+}
+.airbnb-fullimages{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+.air-bnb-smallimages{
+    display: flex;
+    padding: 20px;
+    overflow: auto;
+}
+#one{
+    width: 340px;
+    height: 300px;
+    border-radius: 18px;
+}
+.bnb-main-images-sec{
+    margin-top: 5em;
+    margin-left: 2em;
+    margin-right: 3em;
+    display: grid;
+    overflow: auto;
+    /* grid-template-columns: 300px 300px 300px 300px 300px 300px 300px 300px; */
+    grid-template-columns: repeat(4,300px);
+    column-gap: 4em;
+    grid-template-rows: repeat( 3,400px);
+    row-gap: 1em;
+
+}
+.bnb-main-images-sec-last-sec{
+    margin-top: 5em;
+    margin-left: 2em;
+    margin-right: 3em;
+    display: grid;
+    overflow: auto;
+    /* grid-template-columns: 300px 300px 300px 300px 300px 300px 300px 300px; */
+    grid-template-columns: repeat(4,300px);
+    column-gap: 4em;
+    grid-template-rows: repeat( 2,400px);
+    row-gap: 1em;
+
+}
+.airbnb-sec-txt{
+    font-size: 35px;
+    margin-left: 2em;
+    margin-top: 3em;
+}
+.head{
+    margin-left: 2em;
+    font-size: 25px;
+}
+footer{
+    background-color: rgb(242, 242, 242);
+}
+.footer-sec-head{
+    display: flex;
+    margin-left: 2em;
+}
+.last-footer{
+    margin: 20px;
+}
+.dividers{
+    border-bottom: 1px solid grey;
+}
+.list{
+    margin-top: 5em;
+}
+.footer2-grid-txt{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 1em;
+}
+.footer3-grid-txt{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 1em;
+
+}
+
+
